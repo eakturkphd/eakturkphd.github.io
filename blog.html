@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Emre Akturk, PhD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="blog-additions.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Emre Akturk <span>PhD</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+          <a href="#">Research</a>
+          <div class="dropdown-content">
+            <a href="publications.html">Selected Articles</a>
+            <a href="projects.html">Projects</a>
+            <a href="teaching.html">Teaching</a>
+          </div>
+        </div>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="index.html#contact" class="btn-nav">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="blog-list-page">
+    <section class="blog-list-hero">
+      <div class="container">
+        <p class="eyebrow">Blog</p>
+        <h1>Spatial Notes on Earth, Forests and Remote Sensing</h1>
+        <p>Short-form scientific essays on GIS, remote sensing, forest monitoring and global environmental change.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container blog-grid">
+        <article class="blog-card-featured">
+          <a href="blog-global-land-cover-datasets.html" class="blog-card-image">
+            <img src="assets/global-land-cover-datasets.png" alt="Global land cover datasets summary">
+          </a>
+          <div class="blog-card-content">
+            <span class="pub-year">12 May 2026</span>
+            <h2><a href="blog-global-land-cover-datasets.html">Global Land Cover Datasets: Reading the Planet Pixel by Pixel</a></h2>
+            <p>How satellite observations, classification algorithms and global data infrastructures help us understand where forests, croplands, wetlands, water bodies and settlements are—and how they change over time.</p>
+            <div class="blog-card-actions">
+              <a class="btn-doi" href="blog-global-land-cover-datasets.html">Read English Version</a>
+              <a class="btn-doi secondary-link" href="blog-kuresel-arazi-ortusu-veri-setleri.html">Türkçe Metin</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Emre Akturk. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
